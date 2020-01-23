@@ -1,0 +1,20 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+importchecker = "*"
+
+[packages]
+python-dotenv = "*"
+requests = "*"
+requests-html = "*"
+selenium = "*"
+openpyxl = "*"
+lxml = "*"
+xlrd = "*"
+xlsxwriter = "*"
+
+[requires]
+python_version = "3.8"
